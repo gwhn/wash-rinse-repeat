@@ -1,6 +1,49 @@
 # Markdown
 
+## Introduction
+
+Markdown is a format designed for the web to be easy to read and write. You can
+use HTML for any markup not covered by Markdown's syntax; block-level HTML
+elements such as <div> or <table> just need to be separated with blank lines;
+span-level HTML elements such as <span> or <cite> can be used anywhere in
+Markdown.
+
+## Block Elements
+
+### Paragraph
+
+A paragraph is one or more consecutive lines of text separated by one or more
+blank lines.
+
+### Headers
+
+There are two styles of headers, underlined and hashed.
+
+Underlined has two levels, one using equal signs, the other using dashes.
+
+    First-level header
+    ==================
+
+    Second-level header
+    -------------------
+
+Any number of = or - symbols will work.
+
+Hashed header use 1-6 hash characters at the start of the line.
+
+    # H1
+
+    ## H2
+
+    ### H3
+
+    #### H4
+
+    ##### H5
+
+    ###### H6
+
 ## References
 
-1. [http://daringfireball.net](http://daringfireball.net/projects/markdown/syntax)
+1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
 
