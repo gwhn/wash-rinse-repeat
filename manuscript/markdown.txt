@@ -109,6 +109,18 @@ indented by either 4 spaces or a tab.
 
 To put a code block within a list item, indent the code block *twice*.
 
+### Code Blocks
+
+The lines of a code block are interpreted literally. Indent every line of the
+block by at least 4 spaces or 1 tab.
+
+This is a normal paragraph.
+
+    This is a code block.
+
+One level of indentation is removed from each line of the code block. It
+continues until it reaches a line that is not indented.
+
 ## References
 
 1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
