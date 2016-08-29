@@ -203,9 +203,9 @@ You can escape an emphasis delimiter with a backslash.
 
 ### Code
 
-Wrap a span of code with `\`backtick quotes`\`.
+Wrap a span of code with backtick quotes.
 
-To include a backtick characterin the code span, use double backticks as the
+To include a backtick character in the code span, use double backticks as the
 opening and closing delimiters.
 
 ### Images
@@ -223,7 +223,37 @@ Reference image:
     ![Alt text][id]
     [id]: path/to/image "Optional title"
 
+### Automatic links
 
+Markdown supports a shortcut for automatic links for URLs and email addresses.
+Simply surround the URL or email with angle brackets.
+
+{linenos=off}
+    <http://example.com/>
+    <address@example.com>
+
+### Backslash Escapes
+
+Use a backslash to generate literal character which otherwise would have
+special meaning in Markdown's syntax.
+
+{linenos=off}
+    \*literal asterisks\*
+
+| \   | backslash
+| `   | backtick
+| *   | asterisk
+| _   | underscore
+| {}  | curly braces
+| []  | squarre brackets
+| ()  | parentheses
+| #   | hash
+| +   | plus sign
+| -   | minus sign
+| .   | dot
+| !   | exclamation mark
+
+***
 
 ## References
 
