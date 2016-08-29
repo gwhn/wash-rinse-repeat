@@ -41,7 +41,7 @@ Hashed header use 1-6 hash characters at the start of the line.
 
 ### Blockquotes
 
-Use > character either at the start of the first line of a paragraph or before
+Use `>` character either at the start of the first line of a paragraph or before
 every line.
 
 {linenos=off}
@@ -53,7 +53,63 @@ every line.
     Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, 
     viverra nec, fringilla in, laoreet vitae, risus.
 
-Blockquotes can be nested by adding another level of >
+Blockquotes can be nested by adding another level of `>`.
+
+Blockquotes can contain other Markdown elements.
+
+### Lists
+
+Unordered lists use either `*`, `+` or `-`.
+
+{linenos=off}
+    * Red
+    * Green
+    * Blue
+
+{linenos=off}
+    + Red
+    + Green
+    + Blue
+
+{linenos=off}
+    - Red
+    - Green
+    - Blue
+
+Ordered lists use numbers followed by a period (`.`).
+
+{linenos=off}
+    1. Red
+    2. Green
+    3. Blue
+
+The numbering is not important, so the list could be written as:
+
+{linenos=off}
+    1. Red
+    1. Green
+    1. Blue
+
+or:
+
+{linenos=off}
+    9. Red
+    3. Green
+    8. Blue
+
+List markers must be followed by one or more space or a tab.
+
+Hanging indents make a list look nice for wrapped lines.
+
+{linenos=off}
+    * Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+      viverra nec, fringilla in, laoreet vitae, risus.
+
+List items may have multiple paragraphs but each subsequent paragraph must be
+indented by either 4 spaces or a tab.
+
+To put a code block within a list item, indent the code block *twice*.
 
 ## References
 
