@@ -4,6 +4,7 @@ git.txt
 tmux.txt
 vim.txt
 ack.txt
+regex.txt
 docker.txt
 javascript.txt
 typescript.txt
