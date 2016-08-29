@@ -65,7 +65,6 @@ Unordered lists use either `*`, `+` or `-`.
     * Red
     * Green
     * Blue
-
 {linenos=off}
     + Red
     + Green
