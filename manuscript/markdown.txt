@@ -21,11 +21,11 @@ There are two styles of headers, underlined and hashed.
 
 Underlined has two levels, one using equal signs, the other using dashes.
 
-`First-level header`
+`First-level header
 `==================`
 
-`Second-level header`
-`-------------------`
+`Second-level header
+-------------------`
 
 Any number of = or - symbols will work.
 
