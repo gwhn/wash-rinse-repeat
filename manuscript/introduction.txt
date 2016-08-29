@@ -1,0 +1,16 @@
+# Introduction
+
+I have just finished reading Practical Vim by Drew Neil. It's dense with
+information and he points out in the Now What? chapter, that you've got to keep
+practicing. I thought that composing this book would be a practical way of
+doing that. 
+
+As a software developer, I have to constantly keep my skills up to date.
+Technology keeps moving forward and the techniques used to solve problems
+evolve over time. I decided to make this book about that, hence the title.
+
+I hope that a by-product of this process will be to instill a discipline in me to
+not just read, but to ensure I have absorbed the knowledge and understand it.
+I intend it to be more of a reference to trigger my memory rather than
+a tutorial for others. Maybe others will get some value from it, but that's
+just gravy.
