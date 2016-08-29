@@ -203,7 +203,14 @@ You can escape an emphasis delimiter with a backslash.
 
 ### Code
 
-Wrap a span of code with ```backtick quotes```.
+Wrap a span of code with `\`backtick quotes`\`.
+
+To include a backtick characterin the code span, use double backticks as the
+opening and closing delimiters.
+
+### Images
+
+
 
 ## References
 
