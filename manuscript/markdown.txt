@@ -201,6 +201,10 @@ The same character must be used to open and close an emphasis.
 
 You can escape an emphasis delimiter with a backslash.
 
+### Code
+
+Wrap a span of code with ```backtick quotes```.
+
 ## References
 
 1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
