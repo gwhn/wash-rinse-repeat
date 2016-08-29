@@ -1,5 +1,6 @@
 # Introduction
 
+{width=30%,float=left}
 ![That's me - Remember for technical books on 8.5x11" paper, images should be
 468px wide and 648px high at 72PPI](images/my-portrait.jpg)
 
