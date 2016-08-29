@@ -210,6 +210,19 @@ opening and closing delimiters.
 
 ### Images
 
+Image syntax is similar to links, except there is an exclamation mark (`!`)
+before the `[square brackets]`.
+
+Inline image:
+{linenos=off}
+    ![Alt text](/path/to/img.jpg)
+    ![Alt text](/path/to/img.jpg "Optional title")
+
+Reference image:
+{linenos=off}
+    ![Alt text][id]
+    [id]: path/to/image "Optional title"
+
 
 
 ## References
