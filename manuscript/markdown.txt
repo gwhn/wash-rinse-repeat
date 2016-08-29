@@ -139,6 +139,51 @@ They may have spaces between them.
 
 ## Span Elements
 
+### Links
+
+There are two types of link: *inline* and *reference*. Both types are delimited
+by `[square brackets]`. To create an inline link, use `(regular parentheses)`
+immediately after the link's closing `[square bracket]`. Inside the
+parentheses, put the URL along with an *optional* title surrounded in quotes.
+
+{linenos=off}
+    This is [an example](http://example.com/ "Title") inline link.
+    [This link](http://example.com/) has not title attribute.
+
+If you're referring to a local resource on the same server, you can use
+relative paths.
+
+Reference links use a second set of `[square brackets]` with a label to
+identify the link.
+
+{linenos=off}
+    This is an [example][id] reference link.
+
+Then you define your link label anywhere in the document on a line by itself.
+
+{linenos=off}
+    [id]: http://example.com/ "Optional title"
+
+The optional title attribute can be enclosed in double or single quotes or in
+parentheses.
+
+The link URL may, optionally, be surrounded by `<angle brackets>`.
+
+You can put the title attribute on the next line and use extra spaces or tabs
+for padding.
+
+Link definition names may consist of letters, numbers, spaces and punctuation,
+but are *not* case sensitive.
+
+Implicit link name shortcut allows you to omit the name of the link.
+
+{linenos=off}
+    [Google][]
+    [Google]: http://google.com/
+
+Reference links are more readable than inline links.
+
+
 ## References
 
 1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
