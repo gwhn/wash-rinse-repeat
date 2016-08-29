@@ -1,5 +1,7 @@
 # Introduction
 
+![That's me](images/my-portrait.jpg)
+
 I have just finished reading Practical Vim by Drew Neil. It's dense with
 information and he points out in the Now What? chapter, that you've got to keep
 practicing. I thought that composing this book would be a practical way of
