@@ -1,1 +1,5 @@
 # ack
+
+## References
+
+[Beyond grep](http://beyondgrep.com/documentation/ack-2.14-man.html)
