@@ -24,8 +24,6 @@ Underlined has two levels, one using equal signs, the other using dashes.
 {linenos=off}
     First-level header
     ==================
-
-{linenos=off}
     Second-level header
     -------------------
 
@@ -35,20 +33,10 @@ Hashed header use 1-6 hash characters at the start of the line.
 
 {linenos=off}
     # H1
-
-{linenos=off}
     ## H2
-
-{linenos=off}
     ### H3
-
-{linenos=off}
     #### H4
-
-{linenos=off}
     ##### H5
-
-{linenos=off}
     ###### H6
 
 ## References
