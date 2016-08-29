@@ -39,6 +39,22 @@ Hashed header use 1-6 hash characters at the start of the line.
     ##### H5
     ###### H6
 
+### Blockquotes
+
+Use > character either at the start of the first line of a paragraph or before
+every line.
+
+{linenos=off}
+    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+    > Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, 
+    > viverra nec, fringilla in, laoreet vitae, risus.
+    
+    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, 
+    viverra nec, fringilla in, laoreet vitae, risus.
+
+Blockquotes can be nested by adding another level of >
+
 ## References
 
 1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
