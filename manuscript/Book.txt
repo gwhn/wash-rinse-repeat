@@ -1,2 +1,13 @@
-chapter1.txt
-chapter2.txt
+markdown.txt
+git.txt
+tmux.txt
+vim.txt
+ack.txt
+docker.txt
+javascript.txt
+typescript.txt
+angular.txt
+rxjs.txt
+redux.txt
+python.txt
+sass.txt
