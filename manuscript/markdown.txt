@@ -129,13 +129,10 @@ They may have spaces between them.
 {linenos=off}
     * * *
     ***
-    ****
     - - -
     ---
-    ----
     _ _ _
     ___
-    ____
 
 ## Span Elements
 
@@ -148,7 +145,7 @@ parentheses, put the URL along with an *optional* title surrounded in quotes.
 
 {linenos=off}
     This is [an example](http://example.com/ "Title") inline link.
-    [This link](http://example.com/) has not title attribute.
+    [This link](http://example.com/) has no title attribute.
 
 If you're referring to a local resource on the same server, you can use
 relative paths.
