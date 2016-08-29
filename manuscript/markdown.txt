@@ -121,6 +121,24 @@ This is a normal paragraph.
 One level of indentation is removed from each line of the code block. It
 continues until it reaches a line that is not indented.
 
+### Horizontal Rules
+
+Place three or more hyphens, asterisks or underscores on a line by themselves.
+They may have spaces between them.
+
+{linenos=off}
+    * * *
+    ***
+    ****
+    - - -
+    ---
+    ----
+    _ _ _
+    ___
+    ____
+
+## Span Elements
+
 ## References
 
 1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
