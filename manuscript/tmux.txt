@@ -16,7 +16,7 @@ To start: `$ tmux`
 
 To finish: `$ exit`
 
-To create a session named basic: `$ tmux new-session -s basic` or `$ tmux new -a basic`
+To create a session named basic: `$ tmux new-session -s basic` or `$ tmux new -s basic`
 
 To detach a session: `prefix d`
 
@@ -28,9 +28,15 @@ To list key bindings and their associated commands: `prefix ?`
 To list existing sessions: `$ tmux list-sessions` or `$ tmux ls`
 
 If there is only one session running, attach to it with: `$ tmux attach`,
-otherwise, attach to it by name using: `$ tmux attach -t {name}`
+otherwise, attach to it by name using: `$ tmux attach -t {name}`. 
+
+The `-t` switch specifies the target.
+
+The `-f` switch specifies the path to a configuration file.
 
 To destroy a session by name: `$ tmux kill-session -t {name}`
+
+To enter command mode: `prefix :`
 
 ## Windows
 
@@ -81,10 +87,6 @@ bottom pane: `prefix K`.
 
 To close a pane: `prefix x` and confirm.
 
-## Command mode
-
-To enter command mode: `prefix :`
-
 ## Customization
 
 For system configuration: `/etc/tmux.conf`
@@ -104,6 +106,8 @@ Use `unbind-key` or `unbind` command to remove key bindings.
 Use `bind-key` or `bind` command to add key bindings.
 
 Use `set-window-option` or `setw` command to set window options.
+
+**Use tmuxinator Rubygem to manage configurations**
 
 ## References
 
