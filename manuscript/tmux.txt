@@ -74,13 +74,9 @@ To create a window: `prefix c`
 
 To rename a window: `prefix ,`
 
-To move to the next window: `prefix n`
+To move to the next window: `prefix n` or `prefix <CTRL-l>`
 
-**Use `prefix <CTRL-l>` to move to the next window**
-
-To move to the previous window: `prefix p`
-
-**Use `prefix <CTRL-h>` to move to the previous window**
+To move to the previous window: `prefix p` or `prefix <CTRL-h>`
 
 To move to a window by index: `prefix {index}`, where index is number starting
 at 0.
@@ -98,17 +94,13 @@ To create a pane from a window: `: join-pane -s {session}:{window}.{pane}`
 
 ## Panes
 
-To create a vertical split pane: `prefix %`
+To create a vertical split pane: `prefix %` or `prefix |`
 
-**Use `prefix |` to create a vertical split**
-
-To create a horizontal split pane: `prefix "`
-
-**Use `prefix -` to create a horizontal split**
+To create a horizontal split pane: `prefix "` or `prefix -`
 
 To cycle through panes: `prefix o`
 
-**Use `prefix h`, `prefix j`, `prefix k`, `prefix l` to move between panes**
+Use `prefix h`, `prefix j`, `prefix k`, `prefix l` to move between panes.
 
 To cycle through pane layouts: `prefix <SPACE>`
 
@@ -126,9 +118,7 @@ For system configuration: `/etc/tmux.conf`
 
 For current user configuration: `~/.tmux.conf`
 
-To reload the configuration: `: source-file ~/.tmux.conf`
-
-**Use `prefix r` to reload configuration**
+To reload the configuration: `: source-file ~/.tmux.conf` or `prefix r`
 
 Use `-g` switch for global options.
 
