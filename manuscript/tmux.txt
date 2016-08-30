@@ -1,1 +1,49 @@
 # tmux
+
+## Installing tmux
+
+Using Homebrew: `brew install tmux`
+
+Using MacPorts: `sudo port install tmux`
+
+Using Ubuntu: `sudo apt-get install tmux`
+
+To test installation: `tmux -V` should indicate version.
+
+## Starting tmux
+
+To start: `tmux`
+
+To finish: `exit`
+
+To create a session named basic: `tmux new-session -s basic` or `tmux new -a basic`
+
+To detach a session: `prefix-d`
+
+**By default, `prefix` is bound to `<CTRL-b>`, but my `.tmux.conf` rebinds it to
+`<CTRL-a>`.**
+
+To list existing sessions: `tmux list-sessions` or `tmux ls`
+
+If there is only one session running, attach to it with: `tmux attach`,
+otherwise, attach to it by name using: `tmux attach -t {name}`
+
+To destroy a session by name: `tmux kill-session -t {name}`
+
+To create a session with a named window, use the `-n` flag: `tmux new -s
+windows -n shell`
+
+To create a window: `prefix-c`
+
+To rename a window: `prefix-,`
+
+To move to the next window: `prefix-n`
+
+To move to the previous window: `prefix-p`
+
+To move to a window by index: `prefix-{index}`, where index is number starting
+at 0.
+
+To find a window by name: `prefix-f`, then enter the name.
+
+To display a list of windows: `prefix-w`

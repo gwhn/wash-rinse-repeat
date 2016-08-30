@@ -232,7 +232,6 @@ special meaning in Markdown's syntax.
 | .   | dot
 | !   | exclamation mark
 
-
 ## References
 
 1. [Daring Fireball](http://daringfireball.net/projects/markdown/syntax)
