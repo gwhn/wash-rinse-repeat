@@ -203,33 +203,21 @@ opening and closing delimiters.
 Image syntax is similar to links, except there is an exclamation mark (`!`)
 before the `[square brackets]`.
 
-Inline image:
+Inline image: `![Alt text](/path/to/img)` or `![Alt text](/path/to/img "Optional title")`
 
-`![Alt text](/path/to/img.jpg)`
-
-`![Alt text](/path/to/img.jpg "Optional title")`
-
-Reference image:
-
-`![Alt text][id]`
-
-`[id]: path/to/image "Optional title"`
+Reference image: `![Alt text][id]` or `[id]: path/to/image "Optional title"`
 
 ### Automatic links
 
 Markdown supports a shortcut for automatic links for URLs and email addresses.
 Simply surround the URL or email with angle brackets.
 
-`<http://example.com/>`
-
-`<address@example.com>`
+`<http://example.com/>` or `<address@example.com>`
 
 ### Backslash Escapes
 
 Use a backslash to generate literal character which otherwise would have
 special meaning in Markdown's syntax.
-
-`\*literal asterisks\*`
 
 | \   | backslash
 | `   | backtick
