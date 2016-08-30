@@ -89,8 +89,12 @@ To find a window by name: `prefix f`, then enter the name.
 
 To display a list of windows: `prefix w`
 
+To display a list of sessions: `prefix s`
+
 To close a window, either type `exit` at the prompt, or: `prefix &` and
 confirm.
+
+To create a pane from a window: `: join-pane -s {session}:{window}.{pane}`
 
 ## Panes
 
@@ -113,6 +117,8 @@ To increase size of left pane: `prefix L`. To increase size of right pane:
 bottom pane: `prefix K`. 
 
 To close a pane: `prefix x` and confirm.
+
+To create a window from a pane: `prefix !`
 
 ## Customization
 
