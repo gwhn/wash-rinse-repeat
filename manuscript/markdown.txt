@@ -181,13 +181,11 @@ Asterisks and underscores indicate emphasis.
 
 Text wrapped with one will be wrapped in an `<em>` tag. 
 
+`*single emphasis*` or `_single emphasis_`
+
 Text wrapped with two will wrapped in a `<strong>` tag.
 
-{linenos=off}
-    *single emphasis*
-    _single emphasis_
-    **double emphasis**
-    __double emphasis__
+`**double emphasis**` or `__double emphasis__`
 
 The same character must be used to open and close an emphasis.
 
