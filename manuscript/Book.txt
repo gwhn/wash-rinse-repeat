@@ -1,8 +1,8 @@
 introduction.txt
 markdown.txt
-git.txt
 tmux.txt
 vim.txt
+git.txt
 ack.txt
 regex.txt
 docker.txt
