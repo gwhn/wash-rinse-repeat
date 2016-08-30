@@ -1,5 +1,11 @@
 # tmux
 
+## Introduction
+
+tmux is a terminal multiplexer which allows a single environment to launch
+multiple terminals, with each running it's own process or program. It can do
+that and much more without using the mouse.
+
 ## Installation
 
 Using Homebrew: `$ brew install tmux`
