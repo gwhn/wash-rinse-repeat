@@ -38,6 +38,33 @@ To destroy a session by name: `$ tmux kill-session -t {name}`
 
 To enter command mode: `prefix :`
 
+To enter copy mode: `prefix [` 
+
+To move around the buffer in copy mode use `h`, `j`, `k` and `l`. 
+Use `w` to jump to the next word. 
+Use `b` to jump to the previous word. 
+Use `f{char}` to jump forward to that first character on the same line. 
+Use `F{char}` to jump backwards to that first character on the same line. 
+Use `<CTRL-b>` to move up one page. 
+Use `<CTRL-f>` to move down one page. 
+Use `g` to jump to the top of the buffer's history. 
+Use `G` to jump to the bottom of the buffer's history.
+
+To search upwards in copy mode: `?{term}<RETURN>`.
+To search downwards in copy mode use `/{term}<RETURN>`
+Use `n` to jump to the next occurrence.
+Use `N` to jump to the previous occurrence.
+
+To copy text in copy mode, move the cursor to the start of the selection, then
+press `<SPACE>` and move the cursor to the end of the selection, then press
+`<RETURN>`.
+
+To paste text in copy mode: `prefix ]`
+
+To capture the visible content of a pane from command mode: `: capture-pane`
+
+To exit copy mode: `<RETURN>`
+
 ## Windows
 
 To create a session with a named window, use the `-n` flag: `$ tmux new -s
@@ -134,4 +161,5 @@ To start the environment: `$ tmuxinator {name}`
 
 ## References
 
+[tmux Productive Mouse-Free Development](https://pragprog.com/book/bhtmux/tmux)
 [gwhn/tmux-config on Github](https://github.com/gwhn/tmux-config)
