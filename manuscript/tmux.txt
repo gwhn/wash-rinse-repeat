@@ -111,6 +111,12 @@ Use `set-window-option` or `setw` command to set window options.
 
 Use tmuxinator Rubygem to manage configurations.
 
+To install: `$ gem install tmuxinator`
+
+To create a new configuration: `$ tmuxinator open {name}`
+
+Example of configuration named dev:
+
     # ~/.tmuxinator/dev.yml
 
     name: dev
@@ -123,6 +129,8 @@ Use tmuxinator Rubygem to manage configurations.
             - vim
             - #empty
       - console: #empty
+
+To start the environment: `$ tmuxinator {name}`
 
 ## References
 
