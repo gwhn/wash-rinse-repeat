@@ -205,32 +205,31 @@ before the `[square brackets]`.
 
 Inline image:
 
-{linenos=off}
-    ![Alt text](/path/to/img.jpg)
-    ![Alt text](/path/to/img.jpg "Optional title")
+`![Alt text](/path/to/img.jpg)`
+
+`![Alt text](/path/to/img.jpg "Optional title")`
 
 Reference image:
 
-{linenos=off}
-    ![Alt text][id]
-    [id]: path/to/image "Optional title"
+`![Alt text][id]`
+
+`[id]: path/to/image "Optional title"`
 
 ### Automatic links
 
 Markdown supports a shortcut for automatic links for URLs and email addresses.
 Simply surround the URL or email with angle brackets.
 
-{linenos=off}
-    <http://example.com/>
-    <address@example.com>
+`<http://example.com/>`
+
+`<address@example.com>`
 
 ### Backslash Escapes
 
 Use a backslash to generate literal character which otherwise would have
 special meaning in Markdown's syntax.
 
-{linenos=off}
-    \*literal asterisks\*
+`\*literal asterisks\*`
 
 | \   | backslash
 | `   | backtick
