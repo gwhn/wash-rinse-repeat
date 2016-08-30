@@ -1,6 +1,6 @@
 # tmux
 
-## Installing tmux
+## Installation
 
 Using Homebrew: `$ brew install tmux`
 
@@ -10,7 +10,7 @@ Using Ubuntu: `$ sudo apt-get install tmux`
 
 To test installation: `$ tmux -V` should indicate version.
 
-## Basic operations
+## Basics
 
 To start: `$ tmux`
 
@@ -18,12 +18,12 @@ To finish: `$ exit`
 
 To create a session named basic: `$ tmux new-session -s basic` or `$ tmux new -a basic`
 
-To detach a session: `$ prefix-d`
+To detach a session: `prefix d`
 
 **By default, `prefix` is bound to `<CTRL-b>`, but my `.tmux.conf` rebinds it to
 `<CTRL-a>`.**
 
-To list key bindings and their associated commands: `prefix-?`
+To list key bindings and their associated commands: `prefix ?`
 
 To list existing sessions: `$ tmux list-sessions` or `$ tmux ls`
 
@@ -37,36 +37,74 @@ To destroy a session by name: `$ tmux kill-session -t {name}`
 To create a session with a named window, use the `-n` flag: `$ tmux new -s
 windows -n shell`
 
-To create a window: `prefix-c`
+To create a window: `prefix c`
 
-To rename a window: `prefix-,`
+To rename a window: `prefix ,`
 
-To move to the next window: `prefix-n`
+To move to the next window: `prefix n`
 
-To move to the previous window: `prefix-p`
+**Use `prefix <CTRL-l>` to move to the next window**
 
-To move to a window by index: `prefix-{index}`, where index is number starting
+To move to the previous window: `prefix p`
+
+**Use `prefix <CTRL-h>` to move to the previous window**
+
+To move to a window by index: `prefix {index}`, where index is number starting
 at 0.
 
-To find a window by name: `prefix-f`, then enter the name.
+To find a window by name: `prefix f`, then enter the name.
 
-To display a list of windows: `prefix-w`
+To display a list of windows: `prefix w`
 
-To close a window, either type `exit` at the prompt, or: `prefix-&` and
+To close a window, either type `exit` at the prompt, or: `prefix &` and
 confirm.
 
 ## Panes
 
-To create a vertical split pane: `prefix-%`
+To create a vertical split pane: `prefix %`
 
-To create a horizontal split pane: `prefix-"`
+**Use `prefix |` to create a vertical split**
 
-To cycle through panes: `prefix-o`
+To create a horizontal split pane: `prefix "`
 
-To cycle through pane layouts: `prefix-<SPACE>`
+**Use `prefix -` to create a horizontal split**
 
-To close a pane: `prefix-x` and confirm.
+To cycle through panes: `prefix o`
+
+**Use `prefix h`, `prefix j`, `prefix k`, `prefix l` to move between panes**
+
+To cycle through pane layouts: `prefix <SPACE>`
+
+To increase size of left pane: `prefix L`. To increase size of right pane:
+`prefix H`. To increase size of top pane: `prefix J`. To increase size of
+bottom pane: `prefix K`. 
+
+To close a pane: `prefix x` and confirm.
 
 ## Command mode
 
-To enter command mode: `prefix-:`
+To enter command mode: `prefix :`
+
+## Customization
+
+For system configuration: `/etc/tmux.conf`
+
+For current user configuration: `~/.tmux.conf`
+
+To reload the configuration: `: source-file ~/.tmux.conf`
+
+**Use `prefix r` to reload configuration**
+
+Use `-g` switch for global options.
+
+Use `set-option` or `set` command to set options.
+
+Use `unbind-key` or `unbind` command to remove key bindings.
+
+Use `bind-key` or `bind` command to add key bindings.
+
+Use `set-window-option` or `setw` command to set window options.
+
+## References
+
+[gwhn/tmux-config on Github](https://github.com/gwhn/tmux-config)
