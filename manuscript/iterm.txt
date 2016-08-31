@@ -1,0 +1,12 @@
+# iTerm
+
+|`<ESC> d`    | Delete a word                 |
+|`<CTR> a`    | Jump to start of line         |
+|`<CTR> e`    | Jump to end of line           |
+|`<CTR> k`    | Kill line from cursor         |
+|`<CTR> y`    | Paste from kill buffer        |
+|`<CTR> r`    | Reverse search command history|
+|`<CTR> f`    | Move forward one character    |
+|`<CTR> b`    | Move back one character       |
+|`<ESC> f`    | Move forward one word         |
+|`<ESC> b`    | Move back one word            |

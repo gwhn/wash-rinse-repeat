@@ -1,6 +1,7 @@
 introduction.txt
 markdown.txt
 tmux.txt
+iterm.txt
 vim.txt
 git.txt
 ack.txt
