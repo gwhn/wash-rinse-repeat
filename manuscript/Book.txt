@@ -5,6 +5,12 @@ iterm.txt
 vim.txt
 git.txt
 ack.txt
+curl.txt
+find.txt
+grep.txt
+ps.txt
+sed.txt
+tar.txt
 regex.txt
 docker.txt
 javascript.txt
@@ -14,3 +20,6 @@ rxjs.txt
 redux.txt
 python.txt
 sass.txt
+redis.txt
+lua.txt
+memcache.txt
